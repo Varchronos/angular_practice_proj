@@ -8,13 +8,14 @@ import { FirstCompComponent } from './first-comp/first-comp.component';
 import { SecondCompComponent } from './second-comp/second-comp.component';
 import { FormsModule } from '@angular/forms';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
     ServersComponent,
     FirstCompComponent,
-    SecondCompComponent
+    SecondCompComponent,
   ],
   imports: [
     BrowserModule,
